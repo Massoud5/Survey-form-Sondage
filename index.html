@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sondage</title>
+</head>
+<body>
+    <img id="Jungle-pic"src="./Jungle.jpg" alt="Jungle">
+    <img id="Jungle-pic2"src="./Jungle2.jpg" alt="Jungle">
+    <h1 id="title">What do you think about this page?</h1>
+    <p id="description">your opinion matters</p>
+    <div class="container">
+        <form action="" id="survey-form">  
+            <div class="form-group">
+                <label  id="name-label" for="name">Name</label>
+                <input type="text" required placeholder="enter your name" id="name">
+            </div>
+            
+            <div class="form-group">
+                <label  id="email-label" for="email">Email</label>
+                <input type="email" required placeholder="enter your email" id="email" >
+            </div>
+            
+
+            <div class="form-group">
+                <label  id="number-label" for="number">Age</label>
+                <input type="number" required placeholder="age" min="12" max="99" id="number">    
+            </div>
+            
+            
+            <div class="form-group">
+                <figcaption>What is the strong point?</figcaption>
+                <select id="dropdown1" title="dropdown1" name="dropdown1" required>
+                    <option disabled selected value>select an element</option>
+                    <option value="">clarity</option>
+                    <option value="">sementality</option>
+                    <option value="">context</option>
+                    <option value="">style and colors</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <figcaption>How much is the success rate?</figcaption>
+                <label for="100">
+                    <input type="radio" name="100" value="100%">
+                    100%
+                </label>
+                <label for="75">
+                    <input type="radio" name="75" value="75%">
+                    75%
+                </label>
+                <label for="50">
+                    <input type="radio" name="50" value="50%">
+                    50%
+                </label>
+                <label for="25">
+                    <input type="radio" name="25" value="25%">
+                    25%
+                </label>
+                <label for="0">
+                    <input type="radio" name="0" value="0%">
+                    0%
+                </label>
+            </div> 
+            
+            <div class="form-group">
+                <figcaption>What is the weakness?</figcaption>
+                <select id="dropdown2" title="dropdown2" name="dropdown2" required>
+                    <option disabled selected value> select an element</option>
+                    <option value="">clarity</option>
+                    <option value="">sementality</option>
+                    <option value="">context</option>
+                    <option value="">style and colors</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <figcaption>What area(s) to improve in?</figcaption>
+                <label for=""><input type="checkbox" value="">context</label>
+                <label for=""><input type="checkbox" value="">sementality</label>
+                <label for=""><input type="checkbox" value="">style</label>
+                <label for=""><input type="checkbox" value="">colors</label>
+                <label for=""><input type="checkbox" value="">Fonts</label>
+                <label for=""><input type="checkbox" value="">framework</label>
+                <label for=""><input type="checkbox" value="">item locations</label>
+            </div>
+
+            <div class="form-group">
+                <figcaption>Give me more details if necessary:</figcaption>
+                <textarea name="" id="" cols="30" rows="10" placeholder="enter your comment"></textarea>
+            </div>      
+        
+
+            <div class="form-group">
+                <button type="submit" id="submit">submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
