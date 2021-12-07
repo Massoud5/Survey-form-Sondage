@@ -1,11 +1,11 @@
-                            Responsive Web Design Project
+Responsive Web Design Project
 
 
 A freeCodeCamp.org project to earn the Responsive Web Design certification.
 
-The live project link:
+The live demo project link:
 
-------------
+https://massoud5.github.io/Survey-form-Sondage/
 
 What I learned:
 
