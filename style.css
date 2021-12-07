@@ -6,7 +6,7 @@ body {
 
 #Jungle-pic {
     z-index: -20;
-    position: absolute;
+    position: fixed;
     top:0;
     left:0;
     opacity: .5;
@@ -34,7 +34,7 @@ body {
     #Jungle-pic2 {
     transform: none;  
     z-index: -20;
-    position: absolute;
+    position: fixed;
     top:0;
     left:0;
     opacity: .6;
@@ -45,17 +45,18 @@ body {
 
 
 #title {
-    color: darkblue;
+    color: khaki;
     margin-top: 50px;
     margin-bottom: 30px;
-    text-shadow:lightgreen 1px 1px 5px ;
+    text-shadow:black 1px 1px 5px;
+    font-size: 40px;
 }
 
 
 #description {
-    color:darkblue;
+    color: khaki;
     margin-bottom: 50px;
-    text-shadow: white 0px 0px 10px;
+    text-shadow: black 0px 0px 10px;
     font-weight: bolder;
 }
 
@@ -64,7 +65,7 @@ body {
     box-shadow: inset 0px 10px 150px white,
                 0px 10px 50px 1px darkgreen;
     margin: 0 auto 0 auto;
-    max-width: 900px;
+    max-width: 800px;
     min-width: 400px;
     border-radius:25px;
 }
@@ -74,5 +75,115 @@ body {
     text-shadow:black 0px 0px 1px,
                 white 0px 0px 20px;
 }
+            
+.form-group {
+    margin:40px auto;
+    text-align: left;
+    margin-left: 13%;
+}
 
+#name,#email,#number,#dropdown1,#dropdown2,#comment,#submit{
+    border:none;
+}
 
+#name {
+    width:50vmin;
+    padding:5px;
+    border-radius:5px;
+    margin-left: 60px;
+    box-shadow: inset 0 0 10px gray;
+}
+
+#email{
+    width:50vmin;
+    padding:5px;
+    border-radius:5px;
+    margin-left: 60px;
+    box-shadow: inset 0 0 10px gray;
+}
+
+#number{
+    width:50vmin;
+    padding:5px;
+    border-radius:5px;
+    margin-left: 60px;
+    box-shadow: inset 0 0 10px gray;
+}
+
+#name-label{
+    display: inline-block;
+    transform: translateY(20px);   
+    margin-top: 70px;    
+}
+
+#email-label {
+    display: inline-block;
+    transform: translateY(20px);    
+}
+
+#number-label {
+    display: inline-block;
+    transform: translateY(20px);   
+}
+
+#radio{
+    display: grid;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#dropdown1{
+    width:50vmin;
+    padding:5px;
+    border-radius:5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    box-shadow: inset 0 0 10px gray;
+}
+
+#dropdown2{
+    width:50vmin;
+    padding:5px;
+    border-radius:5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    box-shadow: inset 0 0 10px gray;
+}
+
+#checkbox{
+    display: grid;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#comment{
+    width:50vmin;
+    padding:5px;
+    border-radius:5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    box-shadow: inset 0 0 10px gray;
+}
+
+button {
+    width:50vmin;
+    padding:10px;
+    border-radius:5px;
+    margin-left: 55px;
+    margin-bottom: 70px; 
+    background: red;
+    box-shadow: 0 5px 20px red;
+    color: lightgray;
+    text-shadow: 0 0 5px black;
+}
+
+button:hover{
+    box-shadow: 0 5px 20px darkred;
+}
+
+button:active {
+    box-shadow: inset 0px 0px 20px rgb(223, 66, 66),0 0 40px rgb(87, 0, 0);
+    transform: scale(1.05);  
+}
