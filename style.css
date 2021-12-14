@@ -104,6 +104,7 @@ body {
 }
 
 #radio{
+    display: -ms-grid;
     display: grid;
     grid-row-gap: 10px;
     margin-top: 20px;
@@ -129,6 +130,7 @@ body {
 }
 
 #checkbox{
+    display: -ms-grid;
     display: grid;
     grid-row-gap: 10px;
     margin-top: 20px;
