@@ -1,7 +1,7 @@
 Responsive Web Design Project
 
 
-A freeCodeCamp.org project to earn the Responsive Web Design certification.
+A freeCodeCamp.org project to achieve the Responsive Web Design certification.
 
 The live demo project link:
 
